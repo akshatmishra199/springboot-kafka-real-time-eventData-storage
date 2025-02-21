@@ -10,3 +10,8 @@ create module named as "kafka-producer-wikimedia"
 
 make the module as springboot project by adding class SpringBootProducerApplication.
 to verify the project setup run command "mvn clean install".
+
+CONFIGURING WIKIMEDIA PRODUCER AND CREATE A TOPIC
+configured the kafka producer related configurations in application.properties file in kafka-producer-wikimedia module.
+created the configuration class named KafkaTopicConfig.
+
